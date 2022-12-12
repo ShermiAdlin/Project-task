@@ -1,0 +1,33 @@
+2022-12-07 13:37:22.857  INFO 20180 --- [restartedMain] com.te.loggerdemo.LoggerdemoApplication  : Starting LoggerdemoApplication using Java 17.0.4.1 on shermiadlin with PID 20180 (D:\STC Workspace\workspace1\loggerdemo\target\classes started by shermi in D:\STC Workspace\workspace1\loggerdemo)
+2022-12-07 13:37:22.858  INFO 20180 --- [restartedMain] com.te.loggerdemo.LoggerdemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-12-07 13:37:22.915  INFO 20180 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-07 13:37:22.916  INFO 20180 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-07 13:37:23.477  INFO 20180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-07 13:37:23.523  INFO 20180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+2022-12-07 13:37:24.087  INFO 20180 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-07 13:37:24.096  INFO 20180 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-07 13:37:24.097  INFO 20180 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-07 13:37:24.176  INFO 20180 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-07 13:37:24.177  INFO 20180 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1260 ms
+2022-12-07 13:37:24.306  INFO 20180 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-07 13:37:24.354  INFO 20180 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-07 13:37:24.499  INFO 20180 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-07 13:37:24.591  INFO 20180 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-07 13:37:24.732  INFO 20180 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-07 13:37:24.758  INFO 20180 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-12-07 13:37:25.272  INFO 20180 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-07 13:37:25.281  INFO 20180 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07 13:37:25.530  WARN 20180 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-07 13:37:25.812  INFO 20180 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-07 13:37:25.853  INFO 20180 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-07 13:37:25.861  INFO 20180 --- [restartedMain] com.te.loggerdemo.LoggerdemoApplication  : Started LoggerdemoApplication in 3.42 seconds (JVM running for 4.277)
+2022-12-07 13:37:45.298  INFO 20180 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-07 13:37:45.299  INFO 20180 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-07 13:37:45.301  INFO 20180 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-12-07 13:37:45.440  INFO 20180 --- [http-nio-8080-exec-2] c.t.l.controller.EmployeeController      : hi
+2022-12-07 13:39:07.620  INFO 20180 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-12-07 13:39:07.634  INFO 20180 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-07 13:39:07.635  INFO 20180 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-07 13:39:07.640  INFO 20180 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07 13:39:07.643  INFO 20180 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-07 13:39:07.652  INFO 20180 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
